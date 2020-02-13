@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Proto3Data {
+    repeated uint64 Vec1 = 1;
+    repeated uint64 Vec2 = 2;
+}
+
