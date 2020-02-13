@@ -59,11 +59,11 @@ int main() {
 
     ifs.close();
 
-    cout << "Test vector1: ";
-    print(vec1);
+    cout << "Test vector3: ";
+    print(vec3);
 
-    cout << "Test vector2: ";
-    print(vec2);
+    cout << "Test vector4: ";
+    print(vec4);
 
     if(vec1 == vec3 && vec2 == vec4) {
         cout << "Test Passed." << endl;

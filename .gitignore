@@ -1,3 +1,7 @@
+# CLion and CMake temp folders
+*/.idea/*
+*/cmake*/*
+
 # Prerequisites
 *.d
 
