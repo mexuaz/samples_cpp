@@ -3,7 +3,8 @@ project(proto3_serialization_sample)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Protobuf 3.9.1 REQUIRED PATHS /cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/protobuf/3.9.1/lib NO_DEFAULT_PATH)
+set(CMAKE_PREFIX_PATH "/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/protobuf/3.9.1")
+#find_package(Protobuf 3.9.1 REQUIRED PATHS /cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/protobuf/3.9.1/lib NO_DEFAULT_PATH)
 find_package(Protobuf 3.9.1 REQUIRED)
 include_directories(${Protobuf_INCLUDE_DIRS})
 protobuf_generate_cpp(PROTO_SRCS PROTO_HDRS proto/vectors.proto)
