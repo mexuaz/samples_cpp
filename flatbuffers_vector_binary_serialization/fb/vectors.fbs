@@ -1,0 +1,11 @@
+// IDL file
+namespace vectors;
+
+// The table(class) contains main data
+table  FlbData {
+	Vec1:[ulong];
+	Vec2:[ulong];
+}
+
+root_type FlbData;
+
