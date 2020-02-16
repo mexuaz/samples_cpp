@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(flb_serialization_sample)
+project(bsv_flatbuffers)
 
 set(CMAKE_CXX_STANDARD 17)
 
