@@ -1,0 +1,3 @@
+/home/am/repos/samples/cpp/binary_serialization/build-binary_serialization_vectors_hdf5-Desktop_Qt_5_14_1_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/am/repos/samples/cpp/binary_serialization/build-binary_serialization_vectors_hdf5-Desktop_Qt_5_14_1_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/am/repos/samples/cpp/binary_serialization/build-binary_serialization_vectors_hdf5-Desktop_Qt_5_14_1_GCC_64bit-Debug/CMakeFiles/bsv_h5.dir
